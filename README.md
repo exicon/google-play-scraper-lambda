@@ -1,5 +1,6 @@
 ## Package
 ```
+npm install
 zip -r google-play-scraper index.js node_modules/
 ```
 

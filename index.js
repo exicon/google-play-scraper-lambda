@@ -6,5 +6,5 @@ exports.handler = (event, context, cb) => {
   context.callbackWaitsForEmptyEventLoop = false
 
   gplay[event.command](event.options)
-    .then(res => { cb(null, res) }, err => cb(err))
+    .then(res => { cb(null, res) }, err => { cb(err) })
 }
